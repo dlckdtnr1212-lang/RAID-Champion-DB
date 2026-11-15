@@ -76,6 +76,22 @@ RAID Champion DB는 한국 RAID: Shadow Legends 유저를 위한 무료 Windows 
 
 Setup은 Windows Authenticode 미서명으로 보안 경고가 나타날 수 있습니다. WebView2 Runtime과 .NET Framework 4.6.2 이상이 필요하며 Setup에는 포함되지 않습니다. 설치 안내에서 실행 환경과 문제 해결 방법을 확인하세요.
 
+### 처음 설치할 때 Windows 보안 경고가 나타난다면?
+
+![Windows SmartScreen 설치 안내](docs/images/windows_smartscreen_guide.png)
+
+Windows에서 **'Windows의 PC 보호'** 경고가 나타날 수 있습니다. 이 설치 파일은 디지털 서명(Authenticode)이 없으며, 게시자가 **'알 수 없는 게시자'**로 표시될 수 있습니다.
+
+1. 먼저 공식 GitHub에서 내려받은 설치 파일인지 확인합니다.
+2. **'추가 정보'**를 클릭합니다.
+3. 다음 화면의 앱 이름이 **`JYrun.RAIDChampionDB-beta-Setup.exe`**인지 확인합니다.
+4. 파일 출처를 신뢰하는 경우 **'실행'**을 선택해 설치를 계속합니다. 이름만으로 안전성을 판단하지 마세요.
+
+이 이미지는 설명과 강조 표시를 덧붙인 **편집된 안내 예시**입니다. 안내용 편집 요소는 실제 Windows 화면의 일부가 아니며, Windows 버전에 따라 화면이 다를 수 있습니다.
+
+사용자는 **2026-11-15 본인 PC에서 알약으로 설치 파일을 검사했으며 탐지된 항목이 없었다**고 확인했습니다. 이는 해당 PC에서의 사용자 검사 경험이며, 모든 환경에서의 안전성을 인증하거나 보장하는 결과가 아닙니다. **Windows Defender·백신과 Windows 보안 기능은 계속 켜 두세요.**
+
+
 ## 주요 기능
 
 ### 챔피언 데이터베이스
