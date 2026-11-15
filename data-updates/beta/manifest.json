@@ -1,0 +1,47 @@
+{
+  "manifest_format_version": 1,
+  "data_version": "1.0.1",
+  "base_data_version": "1.0.0",
+  "compatible_app_versions": {
+    "min": "1.0.0-beta.30",
+    "max": "1.0.0-beta.30"
+  },
+  "description": "RAID11.90: 기존3명 스킬10건의 설명 및 확인된 쿨타임 갱신. 신규계수·효과 계산은 보류. 신규챔피언/신규패시브ID/AI는 미포함.",
+  "files": [
+    {
+      "path": "data/champions_collected.json",
+      "url": "https://raw.githubusercontent.com/dlckdtnr1212-lang/RAID-Champion-DB/main/data-updates/files/1.0.1/data/champions_collected.json",
+      "size": 4466538,
+      "sha256": "bd9eaf3d1cffe1d44bf9deb5bf0d3d70d18f7317b39a5d733b0eb4f4e7b59313"
+    },
+    {
+      "path": "data/bulk_stage11/champion_skills_ko_game.json",
+      "url": "https://raw.githubusercontent.com/dlckdtnr1212-lang/RAID-Champion-DB/main/data-updates/files/1.0.1/data/bulk_stage11/champion_skills_ko_game.json",
+      "size": 10841710,
+      "sha256": "cbc7497505ee2df5eed7085b6d72c5e371a3dd91293c3be30f73487d8d8e3508"
+    }
+  ],
+  "channel": "beta",
+  "data_schema_version": 1,
+  "packages": [
+    {
+      "path": "packages/data_1.0.1_4d31a25418233e9cab480c93ea9e25ad5ce1d9a13f5596f08bc1f8bb1a20a869.zip",
+      "url": "https://raw.githubusercontent.com/dlckdtnr1212-lang/RAID-Champion-DB/main/data-updates/packages/data_1.0.1_4d31a25418233e9cab480c93ea9e25ad5ce1d9a13f5596f08bc1f8bb1a20a869.zip",
+      "size": 432691,
+      "sha256": "a05d69291845e11f9390eb1dac969ffc3bc0c078fe6bf3a806a86a39ae48e91b",
+      "files": [
+        "data/champions_collected.json"
+      ]
+    },
+    {
+      "path": "packages/data_1.0.1_738ea89e4ae76c051a18e01628d254c46cf6770b9fc80fa74fdc0879c6b671fa.zip",
+      "url": "https://raw.githubusercontent.com/dlckdtnr1212-lang/RAID-Champion-DB/main/data-updates/packages/data_1.0.1_738ea89e4ae76c051a18e01628d254c46cf6770b9fc80fa74fdc0879c6b671fa.zip",
+      "size": 650789,
+      "sha256": "53529eebaf9520bd28cc10abdda4fd9c70c52abb995afefc01a4e8ef0220b823",
+      "files": [
+        "data/bulk_stage11/champion_skills_ko_game.json"
+      ]
+    }
+  ],
+  "cumulative_from_base": true
+}
