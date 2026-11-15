@@ -22,7 +22,7 @@ RAID Champion DB는 한국 RAID: Shadow Legends 유저를 위한 무료 Windows 
 
 **Setup을 다시 다운로드할 필요가 없습니다.** 설치된 프로그램을 실행해 공개된 업데이트를 확인하세요. 새 업데이트가 있으면 앱 안내에 따라 적용하고 필요한 경우 재시작하세요. 이미 최신 버전이면 업데이트가 발생하지 않습니다.
 
-[자세한 설치·백업 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/INSTALL_KO.md) · [메모장용 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/%EC%B2%98%EC%9D%8C%EC%9D%BD%EC%96%B4%EC%A3%BC%EC%84%B8%EC%9A%94.txt)
+[자세한 설치·백업 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/INSTALL_KO.md) · [메모장용 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/READ_ME_FIRST_KO.txt)
 
 ## 자동 업데이트와 데이터 버전
 
