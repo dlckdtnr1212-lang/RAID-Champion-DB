@@ -174,8 +174,8 @@
       "size": 0
     },
     "tools/c4_auto_update.py": {
-      "sha256": "45e28b254e440b1464ebc088bb5991cc398ff46aff8bb0593b3344ca8f234905",
-      "size": 21587
+      "sha256": "5355a8048670b1d540e6cc9ddb4348fc7b698b222fc07d4610725c38641a8e13",
+      "size": 21657
     },
     "tools/c4_cloud_smoke.py": {
       "sha256": "a32059b1d376e8866228534e02e62c209375c06a61ba847ae07b5e6de8e73116",
@@ -186,8 +186,8 @@
       "size": 17168
     },
     "tools/c4_hybrid.py": {
-      "sha256": "3179eca45a6362110432bba78544f38a65a4e8e97918ebbf1b8fa1020b3dd0d2",
-      "size": 16912
+      "sha256": "213293b8cded391e31027bc1e2a361f53cff87541b8076d27718045383c63dd1",
+      "size": 17034
     },
     "tools/c4_sources.py": {
       "sha256": "d7199641a7723c7acd99ea78fe58bf5fd845321b3386d71536df5cf68c1d9230",
@@ -217,6 +217,6 @@
   "format_version": 1,
   "note": "Reviewed fixed runtime; automation never edits program code/EXE. Game data baseline only.",
   "private_data_included": false,
-  "sha256": "0e96b56d3830861d3c7f5545eed1ec4bf06a1afb17b801c08b311f042b0ca694",
-  "size": 2958278
+  "sha256": "b60ac8643ade75b1a24f4aea22fc90cedb8813a91f09ab2bd4c916015d984b9f",
+  "size": 2958309
 }
