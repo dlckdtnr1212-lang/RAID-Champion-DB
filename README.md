@@ -4,13 +4,13 @@ RAID Champion DB는 한국 RAID: Shadow Legends 유저를 위한 무료 Windows 
 
 ## 최신 베타버전 다운로드
 
-**프로그램 1.0.0-beta.30.6 · Windows 10/11 64비트 · 무료**
+**프로그램 1.0.0-beta.30.7 · Windows 10/11 64비트 · 무료**
 
-[공식 beta.30.6 Release](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/tag/v1.0.0-beta.30.6)
+[공식 beta.30.7 Release](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/tag/v1.0.0-beta.30.7)
 
 ### 처음 설치하는 분
 
-[JYrun.RAIDChampionDB-beta-Setup.exe](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/JYrun.RAIDChampionDB-beta-Setup.exe) **하나만** 다운로드해 설치하세요. Windows 10/11 64비트를 지원하며 Python을 별도로 설치할 필요가 없습니다. Setup은 약 1.01GB입니다.
+[JYrun.RAIDChampionDB-beta-Setup.exe](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.7/JYrun.RAIDChampionDB-beta-Setup.exe) **하나만** 다운로드해 설치하세요. Windows 10/11 64비트를 지원하며 Python을 별도로 설치할 필요가 없습니다. Setup은 약 1.01GB입니다.
 
 ### beta.29 ZIP을 사용하던 분
 
@@ -22,7 +22,7 @@ RAID Champion DB는 한국 RAID: Shadow Legends 유저를 위한 무료 Windows 
 
 **Setup을 다시 다운로드할 필요가 없습니다.** 설치된 프로그램을 실행해 공개된 업데이트를 확인하세요. 새 업데이트가 있으면 앱 안내에 따라 적용하고 필요한 경우 재시작하세요. 이미 최신 버전이면 업데이트가 발생하지 않습니다.
 
-[자세한 설치·백업 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/INSTALL_KO.md) · [메모장용 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/READ_ME_FIRST_KO.txt)
+[자세한 설치·백업 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.7/INSTALL_KO.md) · [메모장용 안내](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.7/READ_ME_FIRST_KO.txt)
 
 ## 자동 업데이트와 데이터 버전
 
@@ -30,7 +30,7 @@ RAID Champion DB는 한국 RAID: Shadow Legends 유저를 위한 무료 Windows 
 
 작업을 저장하고 앱의 적용·종료·재실행 안내를 따라 주세요. 프로그램 파일은 앱이 안전하게 닫힌 뒤 교체되며, 게임 데이터는 재시작 후 화면에 반영됩니다. 설정이나 작업 상태에 따라 사용자 확인이 필요할 수 있습니다. 자동 설치를 껐다면 업데이트 화면에서 수동 확인·적용이 필요할 수 있습니다.
 
-프로그램은 **1.0.0-beta.30.6**, 최초 오프라인 실행 데이터는 **1.0.0**입니다. 최초 온라인 업데이트 후 재시작하면 데이터 **1.0.1**을 사용합니다. 이미 호환 데이터 1.0.1이 설치된 PC는 이를 계속 사용합니다. 오프라인에서는 이미 설치된 데이터를 사용합니다. 기본 위치의 개인 보유 챔피언·팀 자료는 업데이트와 구분해 보호합니다.
+프로그램은 **1.0.0-beta.30.7**, 최초 오프라인 실행 데이터는 **1.0.0**입니다. 최초 온라인 업데이트 후 재시작하면 데이터 **1.0.1**을 사용합니다. 이미 호환 데이터 1.0.1이 설치된 PC는 이를 계속 사용합니다. 오프라인에서는 이미 설치된 데이터를 사용합니다. 기본 위치의 개인 보유 챔피언·팀 자료는 업데이트와 구분해 보호합니다.
 
 ## 다운로드 파일 구분
 
@@ -66,13 +66,15 @@ RAID Champion DB는 한국 RAID: Shadow Legends 유저를 위한 무료 Windows 
 
 > 설치에 문제가 생겼다면 [GitHub Issues](https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/issues) 또는 레이드 유저놀이터 카페의 배포 게시글에 경고 화면과 Windows 버전을 알려주세요.
 
-## beta.30.6 주요 변경
+## beta.30.7 주요 변경
 
-- beta.29 ZIP 방식에서 최초 한 번의 Setup 설치 방식으로 전환합니다.
-- 공개된 프로그램과 게임 데이터를 GitHub 로그인 없이 확인·다운로드합니다.
-- 앱 안내에 따라 프로그램 교체·재실행과 게임 데이터 적용을 진행합니다.
-- 기본 위치의 기존 보유 정보·팀·설정은 같은 저장 파일을 계속 사용합니다.
-- 프로그램 버전과 게임 데이터 버전을 구분해 표시합니다.
+- 챔피언 상세의 축복·성유물·추천 장비 탭과 기존 출처·효과 표시를 복구했습니다.
+- 공격·방어·지원 3계열, 각 6티어 게임형 마스터리 트리를 제공합니다.
+- 기존 추천 선택 목록을 정확한 마스터리 ID에 연결해 선택 아이콘을 표시합니다.
+- 게임 대조가 끝나지 않은 자료는 “기존 참고 추천 · 게임 검증 미완료”로 구분합니다. 사용자의 실제 장착 상태가 아닙니다.
+- 근거 없는 연결선은 표시하지 않습니다. 추가 밝기·발광 효과 개선은 차기 버전으로 이월했습니다.
+- 프로그램 자동 업데이트 엔진과 게임 데이터 1.0.1, 사용자 보유·팀 저장 형식은 유지했습니다.
+
 
 Setup은 Windows Authenticode 미서명으로 보안 경고가 나타날 수 있습니다. WebView2 Runtime과 .NET Framework 4.6.2 이상이 필요하며 Setup에는 포함되지 않습니다. 설치 안내에서 실행 환경과 문제 해결 방법을 확인하세요.
 
@@ -89,7 +91,7 @@ Windows에서 **'Windows의 PC 보호'** 경고가 나타날 수 있습니다. �
 
 이 이미지는 설명과 강조 표시를 덧붙인 **편집된 안내 예시**입니다. 안내용 편집 요소는 실제 Windows 화면의 일부가 아니며, Windows 버전에 따라 화면이 다를 수 있습니다.
 
-사용자는 **2026-11-15 본인 PC에서 알약으로 설치 파일을 검사했으며 탐지된 항목이 없었다**고 확인했습니다. 이는 해당 PC에서의 사용자 검사 경험이며, 모든 환경에서의 안전성을 인증하거나 보장하는 결과가 아닙니다. **Windows Defender·백신과 Windows 보안 기능은 계속 켜 두세요.**
+사용자는 **2026-11-15 본인 PC에서 알약으로 beta.30.6 설치 파일을 검사했으며 탐지된 항목이 없었다**고 확인했습니다. 이는 해당 PC에서의 사용자 검사 경험이며, 모든 환경에서의 안전성을 인증하거나 보장하는 결과가 아닙니다. **Windows Defender·백신과 Windows 보안 기능은 계속 켜 두세요.**
 
 
 ## 주요 기능
@@ -133,7 +135,7 @@ Windows에서 **'Windows의 PC 보호'** 경고가 나타날 수 있습니다. �
 
 ## 베타버전 안내
 
-현재 공식 배포는 beta.30.6입니다. 최초 공개 beta.29 이후에도 사용자 전투 기록과 피드백을 받아 개선하고 있습니다.
+현재 공식 배포는 beta.30.7입니다. 최초 공개 beta.29 이후에도 사용자 전투 기록과 피드백을 받아 개선하고 있습니다.
 
 챔피언 검색과 데이터베이스 기능을 제공하며, 데몬로드 전투 분석 기능의 정확도를 실제 게임 기록과 비교하여 개선하는 단계입니다.
 

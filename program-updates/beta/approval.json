@@ -2,12 +2,12 @@
   "payload": {
     "format_version": 1,
     "channel": "beta",
-    "sequence": 11,
-    "expires_at": 1810279458,
+    "sequence": 12,
+    "expires_at": 1810385626,
     "local_proof_only": false,
     "data_manifest_canonical_sha256": "0005f4a7e77325d31c372c0974eb492b5fc9db75a75c867e885814df3f8c02a5",
     "program": {
-      "package_version": "1.0.0-beta.30.6",
+      "package_version": "1.0.0-beta.30.7",
       "app_version": "1.0.0-beta.30",
       "data_schema_version": 1,
       "supported_data_versions": {
@@ -19,30 +19,30 @@
         "Assets": [
           {
             "PackageId": "JYrun.RAIDChampionDB",
-            "Version": "1.0.0-beta.30.6",
+            "Version": "1.0.0-beta.30.7",
             "Type": "Full",
-            "FileName": "JYrun.RAIDChampionDB-1.0.0-beta.30.6-beta-full.nupkg",
-            "SHA1": "53ABA80999ED4F67CCFB6FE1931F2337B11927C8",
-            "SHA256": "1EE8F48F09E1DC4996F84CFE1E02E9961C4563DC2B04C3E54494F1D15D6885E2",
-            "Size": 1001611074
+            "FileName": "JYrun.RAIDChampionDB-1.0.0-beta.30.7-beta-full.nupkg",
+            "SHA1": "5BA5D9D6FDA37B74D1F9C5D78CC985562CB5895B",
+            "SHA256": "816ABDE06C13876E6837836BC19C7A59DEB04C048185C4815CB0D1B37A192CC1",
+            "Size": 1001640618
           },
           {
             "PackageId": "JYrun.RAIDChampionDB",
-            "Version": "1.0.0-beta.30.6",
+            "Version": "1.0.0-beta.30.7",
             "Type": "Delta",
-            "FileName": "JYrun.RAIDChampionDB-1.0.0-beta.30.6-beta-delta.nupkg",
-            "SHA1": "5A672F54D661AE2D2AAC48B920FD948DE45D5DF9",
-            "SHA256": "ED66EB55CB569636421A41189F429BF78F3DDF61674FAC02D162A17BBF7357FB",
-            "Size": 5111764
+            "FileName": "JYrun.RAIDChampionDB-1.0.0-beta.30.7-beta-delta.nupkg",
+            "SHA1": "2D125B5064E5306F04AEC1B30C6A0546362CCC7E",
+            "SHA256": "68DF1FB2E029C3F6FBD6DD154B20410FC8AD95146A13EDD9C2C79DEC0C4BF365",
+            "Size": 4044180
           }
         ]
       },
       "urls": {
-        "JYrun.RAIDChampionDB-1.0.0-beta.30.6-beta-full.nupkg": "https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/JYrun.RAIDChampionDB-1.0.0-beta.30.6-beta-full.nupkg",
-        "JYrun.RAIDChampionDB-1.0.0-beta.30.6-beta-delta.nupkg": "https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.6/JYrun.RAIDChampionDB-1.0.0-beta.30.6-beta-delta.nupkg"
+        "JYrun.RAIDChampionDB-1.0.0-beta.30.7-beta-full.nupkg": "https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.7/JYrun.RAIDChampionDB-1.0.0-beta.30.7-beta-full.nupkg",
+        "JYrun.RAIDChampionDB-1.0.0-beta.30.7-beta-delta.nupkg": "https://github.com/dlckdtnr1212-lang/RAID-Champion-DB/releases/download/v1.0.0-beta.30.7/JYrun.RAIDChampionDB-1.0.0-beta.30.7-beta-delta.nupkg"
       }
     }
   },
-  "signature": "aMG8WhMwedKtOfcTChq+fUxKYAISNrSrnxnZj9bOWyodEZTuyy+4hY7nvmyoO3oG3JiZmyFJQ4QAClNMIrqPCw==",
+  "signature": "z3e0KtFXhGVMbrDbW5o5/J+XF5ZYns4mzdbaMsk1dyJ4NGleRq21T66b2Qvcq55eEZD7PNefIiZXasOVdNSEBw==",
   "key_id": "raid_release_1"
 }
