@@ -1,0 +1,222 @@
+{
+  "candidate_count": 52,
+  "files": {
+    "application_update.py": {
+      "sha256": "2d2ef94a016012952729a0f0a0cceb4128f0bb97c4cba36d4a8f692c3bedf193",
+      "size": 27719
+    },
+    "data/bulk_stage11/artifact_sets_ui.json": {
+      "sha256": "59197c7af2cbf2fddd8706fc12fdd32ec0ec368348dfcff1f734094383839eb5",
+      "size": 54660
+    },
+    "data/bulk_stage11/champion_names_ko_game.json": {
+      "sha256": "3be0dff50d080e808f8f7b498c38f864d4527007e8c9c6929d9478f46fea85de",
+      "size": 840878
+    },
+    "data/bulk_stage11/champion_skills_ko_game.json": {
+      "sha256": "eb188e2fd1c52c07d52050128e85749330cdfa5e467083a9d21ae00c883eca30",
+      "size": 10522100
+    },
+    "data/bulk_stage11/skill_display_schema_game.json": {
+      "sha256": "56539cb2a940ddbcb60dc77b0b190a7226e6afbce9f7e35c7f9af0318a1d438e",
+      "size": 3588
+    },
+    "data/champions_collected.json": {
+      "sha256": "b5fc32a04ddfa23a5e1f184157d262070b5fbc39fcf1db89437a7be8f414cdab",
+      "size": 4451697
+    },
+    "game_data_online.py": {
+      "sha256": "aa519e75bd999be4c8521d3e3484422d411114f2d68a63440007204694267f9b",
+      "size": 22376
+    },
+    "game_data_update.py": {
+      "sha256": "776eaaf63a75a26a5a2acf83421ab93129a90de8a2e7126888bdb589bf5a1de1",
+      "size": 29396
+    },
+    "nightly_collection/collector.py": {
+      "sha256": "291b996727b8b255e8777ee1ab9d004f94e85bba13012562ce76537c984694f8",
+      "size": 56551
+    },
+    "nightly_collection/manifest.json": {
+      "sha256": "a60236cfa0f9d17514fc5f7b2c8cc16565a58e2ebaa4409dc4b8b8b0e3a175b2",
+      "size": 3346803
+    },
+    "release_tools/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "release_tools/release_versions.py": {
+      "sha256": "824dd3a3dc2aef87564e8dc7c231a29ecb5f28093838acec5d2f332cd0baf20a",
+      "size": 1327
+    },
+    "release_tools/update_trust.json": {
+      "sha256": "f2282d4a84fa4e41b579652d9a8a074ac34b2f45d35ef26e9b1b44468f463f1d",
+      "size": 116
+    },
+    "scratch/auto_update_b/official_beta30_7/before/data-updates/beta/manifest.json": {
+      "sha256": "9a5a110a6b73d43da25814771d068e537f7ac6a57ab10134850dd3acd04cc1a7",
+      "size": 2172
+    },
+    "scratch/auto_update_b/official_beta30_7/before/program-updates/beta/approval.json": {
+      "sha256": "f0f3cb9569c656fbdac6b065239b85ab9ff06d30dad55545be210f9cf0f10138",
+      "size": 2081
+    },
+    "scratch/c_auto_collection/changes/c_diff_dry_run.json": {
+      "sha256": "583ab6634ac3c6a8f72853e9961075ddb5db3111f1521e8a5a73a17068c27336",
+      "size": 98249
+    },
+    "scratch/c_auto_collection/checkpoints/http.json": {
+      "sha256": "0fe7f0a4a5e11ae789020857b83a199265a85cc3bb4910e9711f529fd59fdec2",
+      "size": 1812
+    },
+    "scratch/c_auto_collection/normalized/records.json": {
+      "sha256": "1683c5262fbaa9914051f7eb713093c03810f5b8f2120f00491455ea4501c447",
+      "size": 211506
+    },
+    "scratch/c_auto_collection/raw/0123e7546302c22b67c936696e9593652230f4b28da8c781f9ead71a9c8f0d14.bin": {
+      "sha256": "0123e7546302c22b67c936696e9593652230f4b28da8c781f9ead71a9c8f0d14",
+      "size": 4355
+    },
+    "scratch/c_auto_collection/raw/0a565f215cb4265e632cff2967cda5a47958dfbbcd89f7227caae886b86b6cf5.bin": {
+      "sha256": "0a565f215cb4265e632cff2967cda5a47958dfbbcd89f7227caae886b86b6cf5",
+      "size": 2164
+    },
+    "scratch/c_auto_collection/raw/231f1841dbe91b0d04496019d115ea1ad6c2c39ad629616ccb59c87e034d4b38.bin": {
+      "sha256": "231f1841dbe91b0d04496019d115ea1ad6c2c39ad629616ccb59c87e034d4b38",
+      "size": 2172
+    },
+    "scratch/c_auto_collection/raw/234fe0e6c5a9b3ade55489a8d4af60fb84c7d8b5acb72a89039508d7cee0e05e.bin": {
+      "sha256": "234fe0e6c5a9b3ade55489a8d4af60fb84c7d8b5acb72a89039508d7cee0e05e",
+      "size": 1445034
+    },
+    "scratch/c_auto_collection/raw/31ecd16516faeaf1b24831b25da4a64a48d778f48e166e3295250c2e78884423.bin": {
+      "sha256": "31ecd16516faeaf1b24831b25da4a64a48d778f48e166e3295250c2e78884423",
+      "size": 2933
+    },
+    "scratch/c_auto_collection/raw/3aaa6cb51de1e662c5a38171884375f645e7d673dd7708f932b18f2317fbc571.bin": {
+      "sha256": "3aaa6cb51de1e662c5a38171884375f645e7d673dd7708f932b18f2317fbc571",
+      "size": 3422
+    },
+    "scratch/c_auto_collection/raw/53454a2ea5631a770467288e466492546d980adc149e3505fe003ebedaac1ecd.bin": {
+      "sha256": "53454a2ea5631a770467288e466492546d980adc149e3505fe003ebedaac1ecd",
+      "size": 3442
+    },
+    "scratch/c_auto_collection/raw/628a796afd538d5b7337090dc7c14ba9f23653a2d2213783db5a96d19a026c92.bin": {
+      "sha256": "628a796afd538d5b7337090dc7c14ba9f23653a2d2213783db5a96d19a026c92",
+      "size": 2207
+    },
+    "scratch/c_auto_collection/raw/63da619d73178dbe73d35cab6e8dd6bf366649dfcc3402257ad69625e4746c48.bin": {
+      "sha256": "63da619d73178dbe73d35cab6e8dd6bf366649dfcc3402257ad69625e4746c48",
+      "size": 2975
+    },
+    "scratch/c_auto_collection/raw/66c73929dcd76d0b52ddceb7aca69e2a1e46f8190e480b990e4ae3ccf5dc5c65.bin": {
+      "sha256": "66c73929dcd76d0b52ddceb7aca69e2a1e46f8190e480b990e4ae3ccf5dc5c65",
+      "size": 4349
+    },
+    "scratch/c_auto_collection/raw/695a8aa12cb8a5a26cf3a7fea5f22b7bcc0e0f1bd855021b3fb15e1acc638291.bin": {
+      "sha256": "695a8aa12cb8a5a26cf3a7fea5f22b7bcc0e0f1bd855021b3fb15e1acc638291",
+      "size": 660701
+    },
+    "scratch/c_auto_collection/raw/83564047e0fd24ab267b88ca99de55d2e634d6d3ceddc18108b8f23d9aa0f6ce.bin": {
+      "sha256": "83564047e0fd24ab267b88ca99de55d2e634d6d3ceddc18108b8f23d9aa0f6ce",
+      "size": 342475
+    },
+    "scratch/c_auto_collection/raw/acfd2e54ac8c32fdf1015a549e0eb1f0645018a9c85c8070139a27718079c071.bin": {
+      "sha256": "acfd2e54ac8c32fdf1015a549e0eb1f0645018a9c85c8070139a27718079c071",
+      "size": 2926
+    },
+    "scratch/c_auto_collection/raw/b005ae8258bd0e01fb8e72d593fd5a44f14ebf2d2067801e677ab89119548390.bin": {
+      "sha256": "b005ae8258bd0e01fb8e72d593fd5a44f14ebf2d2067801e677ab89119548390",
+      "size": 4472
+    },
+    "scratch/c_auto_collection/raw/b641baaa1ef150d546476afc463a96903dc6a5a2a3490908fde1fe4a57d961ad.bin": {
+      "sha256": "b641baaa1ef150d546476afc463a96903dc6a5a2a3490908fde1fe4a57d961ad",
+      "size": 6033
+    },
+    "scratch/c_auto_collection/raw/d08a5acebab75cb5c54b232f283a4c2ad7096a624b41df6f6c13f209ec597dce.bin": {
+      "sha256": "d08a5acebab75cb5c54b232f283a4c2ad7096a624b41df6f6c13f209ec597dce",
+      "size": 3387
+    },
+    "scratch/c_auto_collection/raw/d86daa51954dc36c19f5a9659ef5b630c443fd8530a626363498e77e1f397e7b.bin": {
+      "sha256": "d86daa51954dc36c19f5a9659ef5b630c443fd8530a626363498e77e1f397e7b",
+      "size": 2119
+    },
+    "scratch/c_auto_collection/raw/dbed45ab0ad72152044220d44fb640346be035134ad3b9300a7735e7d8cadfdd.bin": {
+      "sha256": "dbed45ab0ad72152044220d44fb640346be035134ad3b9300a7735e7d8cadfdd",
+      "size": 4372
+    },
+    "scratch/c_auto_collection/raw/dd00e3dcf26abb35813f867d7fbdad8872bac2e5f891c887161a0ccb3221248e.bin": {
+      "sha256": "dd00e3dcf26abb35813f867d7fbdad8872bac2e5f891c887161a0ccb3221248e",
+      "size": 2954
+    },
+    "scratch/c_auto_collection/raw/e845c50ff3b791de66e1c3622ce7360f09179337095be324c152bbcd25305469.bin": {
+      "sha256": "e845c50ff3b791de66e1c3622ce7360f09179337095be324c152bbcd25305469",
+      "size": 3623
+    },
+    "scratch/data_update_dev5/patch1190_review.json": {
+      "sha256": "123c8cd4cac328e9f1eba0fde1c07b1973e4d5ecd0076c9f206d7037c6916563",
+      "size": 16947
+    },
+    "scratch/data_update_dev5/source/data/bulk_stage11/champion_skills_ko_game.json": {
+      "sha256": "cbc7497505ee2df5eed7085b6d72c5e371a3dd91293c3be30f73487d8d8e3508",
+      "size": 10841710
+    },
+    "scratch/data_update_dev5/source/data/champions_collected.json": {
+      "sha256": "bd9eaf3d1cffe1d44bf9deb5bf0d3d70d18f7317b39a5d733b0eb4f4e7b59313",
+      "size": 4466538
+    },
+    "skill_display_engine.py": {
+      "sha256": "85aa729b3948c5da4d3fc6cf1822b1089d21f2c69446212b09bb7278b10c92e2",
+      "size": 13433
+    },
+    "tools/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "tools/c4_auto_update.py": {
+      "sha256": "45e28b254e440b1464ebc088bb5991cc398ff46aff8bb0593b3344ca8f234905",
+      "size": 21587
+    },
+    "tools/c4_cloud_smoke.py": {
+      "sha256": "a32059b1d376e8866228534e02e62c209375c06a61ba847ae07b5e6de8e73116",
+      "size": 2943
+    },
+    "tools/c4_github.py": {
+      "sha256": "c880fcb6ce3bb8e065bb3a5581208ead1980172da6832ba748340efa6a419fb8",
+      "size": 17168
+    },
+    "tools/c4_hybrid.py": {
+      "sha256": "3179eca45a6362110432bba78544f38a65a4e8e97918ebbf1b8fa1020b3dd0d2",
+      "size": 16912
+    },
+    "tools/c4_sources.py": {
+      "sha256": "d7199641a7723c7acd99ea78fe58bf5fd845321b3386d71536df5cf68c1d9230",
+      "size": 19106
+    },
+    "tools/c_data_pipeline.py": {
+      "sha256": "367a6e0e71e50432553e9214521f98dee544dbff2d60d874bbaed70edca7f6c1",
+      "size": 45285
+    },
+    "tools/c_night_collect.py": {
+      "sha256": "7eabbd64b5ac179a2f3feeebfc5b8ac8ccf2581cb4bf8304452d8bc66881ab8d",
+      "size": 51093
+    },
+    "tools/data_update.py": {
+      "sha256": "dd63f9f3b8782230f457dded2db174f18d9723836a6236a2c63e702a943b5076",
+      "size": 13640
+    },
+    "tools/data_update_release.py": {
+      "sha256": "9e64bf339f8d1e48e3411e66b2f65a239bcc8f39bcbaf62c66cbcdcb5baebc9b",
+      "size": 5426
+    },
+    "tools/program_update_release.py": {
+      "sha256": "9f644c9cdcee7e8852b265aa1722379ec052cec28968dc1f62879eef15dd3ebc",
+      "size": 11596
+    }
+  },
+  "format_version": 1,
+  "note": "Reviewed fixed runtime; automation never edits program code/EXE. Game data baseline only.",
+  "private_data_included": false,
+  "sha256": "0e96b56d3830861d3c7f5545eed1ec4bf06a1afb17b801c08b311f042b0ca694",
+  "size": 2958278
+}

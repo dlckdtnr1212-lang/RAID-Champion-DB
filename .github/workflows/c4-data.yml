@@ -1,0 +1,44 @@
+name: C4 game data automation
+on:
+  schedule:
+    - cron: '23 1,7,13,19 * * *'
+  workflow_dispatch:
+    inputs:
+      diagnostic:
+        description: Run isolated historical-data replay
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: c4-official-data-publisher
+  cancel-in-progress: false
+jobs:
+  data:
+    if: github.repository == 'dlckdtnr1212-lang/RAID-Champion-DB' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write # Own state branch and, after initial activation, data-only commits.
+    environment: c4-production
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install existing signature dependency
+        run: python -m pip install --no-cache-dir cryptography==50.0.2
+      - name: Verify and unpack reviewed independent runtime
+        run: python automation/c4/bootstrap.py
+      - name: Isolated existing B engine and historical-data compatibility
+        if: github.event_name == 'workflow_dispatch' && inputs.diagnostic
+        run: python -X utf8 runtime/tools/c4_cloud_smoke.py
+      - name: Detect, validate and checkpoint (publication initially disabled)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          C4_ENABLE_PUBLISH: ${{ vars.C4_ENABLE_PUBLISH }}
+          C4_SIGNING_KEY: ${{ secrets.C4_SIGNING_KEY }}
+        run: python -X utf8 runtime/tools/c4_hybrid.py cloud
+      # No Actions artifact/cache uploads: logs + summary, bounded state branch only.
